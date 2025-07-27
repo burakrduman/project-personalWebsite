@@ -36,16 +36,16 @@ const HeroSection: React.FC = () => {
             </a>
           </div>
         </div>
-        
-        <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <a 
-            href="#about" 
-            className="p-2 rounded-full border border-gray-300 dark:border-gray-700 text-gray-500 dark:text-gray-400 hover:text-blue-500 dark:hover:text-blue-400 hover:border-blue-500 dark:hover:border-blue-400 transition-colors"
-            aria-label="Scroll down"
-          >
-            <ArrowDown size={24} />
-          </a>
-        </div>
+      </div>
+      
+      <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
+        <a 
+          href="#about" 
+          className="p-2 rounded-full border border-gray-300 dark:border-gray-700 text-gray-500 dark:text-gray-400 hover:text-blue-500 dark:hover:text-blue-400 hover:border-blue-500 dark:hover:border-blue-400 transition-colors"
+          aria-label="Scroll down"
+        >
+          <ArrowDown size={24} />
+        </a>
       </div>
     </section>
   );
